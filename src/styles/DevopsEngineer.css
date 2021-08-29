@@ -1,0 +1,19 @@
+.devops-div-margin{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+.round-envi{
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 143px;
+}
+
+
+@media screen and (max-width:565px){
+    .devops-div-margin{
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+    }
+}

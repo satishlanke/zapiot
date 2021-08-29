@@ -1,0 +1,18 @@
+.CardBlockMain hr{
+    width: 10%;
+    border-top: 3px solid #F8A02B;
+    color: #F8A02B;
+    border-style: solid;
+    /* font-size: 20px; */
+}
+.CardBlockMain h2{
+    color: #675797;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.CardBlockMain p{
+    font-size: 16px;
+
+}

@@ -1,0 +1,40 @@
+.registerjob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerbody{
+    display: flex;
+   
+    
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+}
+.registerFormMain{
+    background-color: #d1d5d6;
+    padding: 2em;
+    border-radius: 10px;
+}
+.select-col{
+    display: flex!important;
+    flex-direction: column!important;
+    margin-right: 0!important;
+
+}
+.register-label{
+    color: black;
+    font-weight: 500;
+}
+.registerjob-col{
+    margin-right: 5px;
+   }
+   .register-form-row{
+       margin-top: 1em;
+   }
+.img-col-antcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5em;
+}

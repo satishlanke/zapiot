@@ -1,0 +1,24 @@
+.diamond{
+    width: 90px;
+    height: 90px;
+    border: 2px solid #F8A02B;
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .hr-diamond{
+    font-size:xx-large;
+    position: relative;
+    bottom: 28%;
+    right: 25%;
+    padding-bottom:0px;
+
+} */
+.diamond h2{
+    transform: rotate(
+316deg
+);
+    margin-left: 1em;
+    padding-bottom: .5em;
+}

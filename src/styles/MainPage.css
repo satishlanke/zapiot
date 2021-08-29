@@ -1,0 +1,217 @@
+.maincarouselanimation{
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count:100;
+    
+    /* repeat:no-repeat; */
+}
+
+
+/* .cssanimation span { display: inline-block } */
+
+.fadeInBottom { 
+    animation-name: fadeInBottom 
+    
+}
+.fadeInBottom:hover { 
+    animation: hover 1s infinite alternate ease-in-out;
+    
+}
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+.maincarousel-component{
+    min-height: 300px;
+}
+.maincarousel{
+    width: 40%;
+}
+.maincorousel-div-background{
+    width: 100%;
+    min-height: 500px;
+}
+
+.maincarousel h2{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 53px;
+}
+.maincarousel-link{
+    padding: 10px 20px;
+    background-color: #F8A02B;
+    font-weight: bold;
+    color: white;
+
+}
+.maincarousel-link:hover{
+   background-color: #191970; 
+   color: white;
+}
+.maincarousel p{
+    color:#212529;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.services-heading{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 0px;
+}
+.services-block{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.services-block2{
+    width: inherit;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #D1D1D1;
+   
+    padding: 30px 0px 30px 0px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.services-block2-heading{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 54px;
+}
+.services-block2 a{
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color:#F8A02B;
+    border-radius: 0px 0px 0px 0px;
+    padding: 7px 50px 7px 50px;
+}
+.services-block2 a:hover{
+   background-color:  #675797;
+   color: white;
+}
+.services-block3 p{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Ubuntu", Sans-serif;
+}
+.services-technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.letsspeak-button{
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color:#F8A02B;
+    border-radius: 0px 0px 0px 0px;
+    padding: 7px 50px 7px 50px;
+    width: 25%;
+    margin-left: 2em;
+}
+.letsspeak-button:hover{
+   background-color:  #675797;
+   color: white;
+}
+
+.diamond-component{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leading-tech-block{
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.react-multi-carousel-dot button {
+    display: inline-block !important;
+    width: 8px !important;
+    height: 9px!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+    padding: 5px 5px 5px 5px!important;
+    box-shadow: none!important;
+    /* transition: background .5s!important; */
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-color: grey!important;
+    padding: 0!important;
+    margin: 0!important;
+    margin-right: 6px!important;
+    outline: 0!important;
+    cursor: pointer!important;
+}
+.react-multi-carousel-dot--active button {
+    background: #F8A02B!important;
+}
+.react-multi-carousel-list {
+    /* margin: inherit!important; */
+}
+.react-carousel-certificate ul{
+    margin-left: 5em!important;
+}
+@media screen and (max-width:465px){
+    .letsspeak-button{
+        padding: 7px 37px 7px 43px;
+        width: 40%;
+    }
+    .maincorousel-div-background{
+        width: 100%;
+    max-height: 100px;
+    min-height: 300px;
+    }
+    .maincarousel{
+        max-height: 80px;
+        width: 100%;
+    }
+    .maincarousel-component{
+        max-height: 300px;
+    }
+    .maincarousel p {
+        color: #212529;
+        font-family: "Ubuntu", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .maincarousel h2 {
+        color: #224468;
+        font-family: "Ubuntu", Sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .our-process-row{
+        display: none!important;
+    }
+
+}

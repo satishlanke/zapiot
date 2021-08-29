@@ -1,0 +1,36 @@
+.trustzapiotitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.trustzapiotitem p{
+    color: #212529;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    margin-bottom: 3em;
+}
+.trustzapiotitem h2{
+    color: #675797;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0!important;
+    /* transition: all .5s; */
+    /* border-radius: 35px; */
+    z-index: 1000;
+    /* border: 0; */
+    background: transparent!important;
+    min-width: auto!important;
+    min-height: auto!important;
+    opacity: 1;
+    cursor: pointer;
+}

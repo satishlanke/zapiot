@@ -1,0 +1,53 @@
+
+
+.NavMenu-items{
+    justify-content: flex-end;
+}
+.logoImage{
+    margin-left: 1.5em;
+}
+.nav-ul{
+    align-items: center;
+}
+.topnav-nav-item{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.topnav-nav-link::before {
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #0065B3;
+  }
+
+  .topnav-nav-link::before {
+    width: 0%;
+    bottom: 2em;
+  }
+  
+  .topnav-nav-link:hover::before {
+    width: 3%;
+  }
+
+  .topnav-nav-link:hover{
+   color: #5B7DA8!important; 
+  }
+  
+  .contact-us-button{
+      background-color: #F8A02B;
+      font-weight: bold;
+      font-size: 15px!important;
+        padding: 19px 20px!important;
+        color: white!important;
+        border-radius: 4px;
+  }
+  .contact-us-button:hover{
+      background-color: #224468;
+      color: white!important;
+
+  }
+  .topnav-nav-link:active{
+      color: #F8A02B;
+  }

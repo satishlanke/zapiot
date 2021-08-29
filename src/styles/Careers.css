@@ -1,0 +1,12 @@
+.career-block-h2-1{
+    font-size: 2rem;
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-weight: 600;
+}
+.career-li li{
+    margin-bottom: .5em;
+}
+.career-formgroup{
+    margin-right: 2em;
+}

@@ -1,0 +1,9 @@
+.platform-content-class h2{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.platform-content-class p{
+    font-size: initial;
+}

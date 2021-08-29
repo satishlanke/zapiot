@@ -1,0 +1,61 @@
+.pe-block1-h2{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.pe-grid-h2{
+    color: #675797;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+.product-card h2{
+    color: #675797;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.pe-ant-row{
+    justify-content: center!important;
+}
+.pe-back-img{
+    background-image: url(../assets/productengineer/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    margin: 0 0 0 0!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pe-btn{
+    background-color: #F8A02B;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.pe-btn:hover{
+    background-color: #224468;
+    color: white!important;
+}
+@media screen and (max-width:565px){
+    .pe-block1-h2{
+        font-size: 29px;
+    font-weight: 700;
+    line-height: 43px;
+    }
+}

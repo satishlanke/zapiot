@@ -1,0 +1,36 @@
+.servicePage-block1{
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: left;
+}
+
+
+
+.servicePage-block1 h2{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 69px;
+    margin-top: 1em;
+    width: 6%;
+    margin-bottom: 0px!important;
+    border-top: 4px solid #FFC600;
+}
+.servicePage-block1 p{
+    font-size: 16px;
+    line-height: 2em;
+    font-weight: 400;
+}
+.card{
+    border: 1px solid rgb(212, 212, 212)!important;
+    height: 100%!important;
+}
+.card:hover{
+    border: 1px solid #0065B3!important;   
+}
+.card img{
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}

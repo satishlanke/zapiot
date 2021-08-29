@@ -1,0 +1,49 @@
+.qa-block-margin{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.qa-block1-title-h2{
+    color: #212529;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.qa-divider{
+    
+        border-top: 1px solid #A29E9E!important;
+        margin: 9px 0!important;
+
+}
+.qa-block-h2-2{
+    color: #224468;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px
+}
+.qa-divider3{
+    display: none!important;
+}
+.qa-block-p{
+    font-size: initial;
+    font-weight: 400;
+}
+.qa-block2-div-margin{
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+@media screen and (max-width:568px){
+    .qa-block-margin{
+        margin-left: 1.5em!important;
+        margin-right: 1.5em!important;
+    }
+    .qa-block2-div-margin{
+        margin-left: 1.5em!important;
+        margin-right: 1.5em!important;
+    
+    }
+    
+}

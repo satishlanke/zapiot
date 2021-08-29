@@ -48,6 +48,7 @@ const CompRouter = (props) => {
                         <Route exact path="/bench/:id" component={DetailJob} />
                         <Route exact path="/login" component={Login} /> 
                         <Route exact path="/register" component={Register} />
+                        
                         </store.Provider>
                        
 
